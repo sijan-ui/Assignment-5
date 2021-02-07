@@ -6,8 +6,8 @@
     box-sizing: border-box;
 }
 :root{
-    --tenne-tawny: #d65108;
-    --tenne-tawny-dark: #b54507;
+    --tenne-tawny: #d6082a;
+    --tenne-tawny-dark: #d3540f1a;
 }
 body{
     font-weight: 300;
