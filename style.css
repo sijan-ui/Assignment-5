@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 :root{
     --tenne-tawny: #d6082a;
     --tenne-tawny-dark: #d3540f1a;
@@ -53,7 +54,7 @@ body{
     display: flex;
     align-items: stretch;
 }
-.search-control,
+
 .search-btn{
     width: 100%;
 }
@@ -241,7 +242,9 @@ body{
     opacity: 0.8;
 }
 
-
+#contant{
+    margin-left: 38%;
+}
 /*  */
 .notFound{
     grid-template-columns: 1fr!important;
@@ -250,11 +253,6 @@ body{
     font-weight: 600;
     width: 100%;
 }
-
-
-
-
-
 
 /* Media Queries */
 @media screen and (min-width: 600px){
